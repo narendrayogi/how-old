@@ -1,0 +1,29 @@
+{
+  "name": "how-old",
+  "version": "1.0.0",
+  "description": "Gets how old birthdate to a date.",
+  "main": "HowOld.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narendrayogi/how-old.git"
+  },
+  "keywords": [
+    "age",
+    "calculator",
+    "years",
+    "months",
+    "days"
+  ],
+  "author": "Narendran VR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narendrayogi/how-old/issues"
+  },
+  "homepage": "https://github.com/narendrayogi/how-old#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
