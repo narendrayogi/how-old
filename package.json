@@ -1,9 +1,11 @@
 {
-  "name": "how-old",
-  "version": "1.0.0",
+  "name": "@narendrayogi/how-old",
+  "version": "1.0.1",
   "description": "Gets how old birthdate to a date.",
-  "main": "HowOld.js",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node index.js",
     "test": "jest"
   },
   "repository": {
@@ -25,5 +27,6 @@
   "homepage": "https://github.com/narendrayogi/how-old#readme",
   "devDependencies": {
     "jest": "^26.6.3"
-  }
+  },
+  "dependencies": {}
 }

@@ -1,4 +1,4 @@
-function howOld( birthDate, till = new Date() ) {
+export function howOld( birthDate, till = new Date() ) {
 
   let years = ( till.getFullYear() - birthDate.getFullYear() );
   let lastToTillYearBirthDate = new Date(
@@ -41,4 +41,4 @@ function howOld( birthDate, till = new Date() ) {
   }
 };
 
-module.exports = howOld;
+// module.exports = { howOld };
